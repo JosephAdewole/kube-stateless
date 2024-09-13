@@ -18,7 +18,7 @@ spec:
         image: josephadewole1/fastapi:latest
         resources:
           requests:
-            cpu: 200m
+            cpu: 150m
             memory: 100Mi
         ports:
         - containerPort: 80
